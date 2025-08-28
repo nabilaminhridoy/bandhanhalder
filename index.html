@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="color-scheme" content="dark light" />
+  <meta name="theme-color" content="#070a12" />
+  <meta name="description" content="Bandhan Halder — Assistant VLSI Engineer. IC Physical Implementation (PNR), STA with Synopsys ICC2 and PrimeTime. UCIe projects down to 5nm." />
+  <title>Bandhan Halder — VLSI Engineer</title>
+  <link rel="preload" as="image" href="assets/media/profile.jpg" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <!-- Background -->
+  <div class="bg-video" aria-hidden="true">
+    <video id="bgVideo" autoplay muted loop playsinline preload="auto" poster="assets/media/bg-poster.jpg">
+      <source src="assets/media/bg.webm" type="video/webm"/>
+      <source src="assets/media/bg.mp4" type="video/mp4"/>
+    </video>
+    <div class="bg-tint"></div>
+  </div>
+
+  <!-- Fixed top nav -->
+  <nav class="top-nav" role="navigation" aria-label="Primary" id="topNav">
+    <div class="nav-inner">
+      <div class="brand"><div class="logo" aria-hidden="true"></div><span>Bandhan Halder</span></div>
+
+      <div class="navlinks" id="navlinks">
+        <a href="#home">Home</a>
+        <a href="#profile">Profile</a>
+        <a href="#experience">Experience</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+        <span class="nav-indicator" id="navIndicator"></span>
+      </div>
+
+      <div class="spacer"></div>
+
+      <div class="actions">
+        <a class="icon-btn" href="https://www.linkedin.com/in/bandhan-halder-b872592a1/" target="_blank" rel="noopener" aria-label="LinkedIn">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a class="icon-btn" href="https://www.facebook.com/bdn0506/" target="_blank" rel="noopener" aria-label="Facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+        <button class="icon-btn" id="themeToggle" aria-label="Toggle theme">
+          <i id="themeIcon" class="fas fa-sun"></i>
+          Theme
+        </button>
+      </div>
+    </div>
+  </nav>
+  <div class="nav-spacer" aria-hidden="true"></div>
+
+  <!-- Mobile FAB -->
+  <button class="mobile-fab" id="mobileFab" aria-label="Quick menu" aria-expanded="false" aria-controls="fabPanel">
+    <i class="fas fa-bars"></i>
+  </button>
+  <div class="fab-panel" id="fabPanel">
+    <div class="fab-links">
+      <a href="#home">Home</a>
+      <a href="#profile">Profile</a>
+      <a href="#experience">Experience</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#education">Education</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </div>
+
+  <div class="progress" id="progress"></div>
+
+  <!-- Cursor, toast, back-to-top -->
+  <div class="cursor" id="cursor" aria-hidden="true"></div>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <button class="to-top" id="toTop" aria-label="Back to top">
+    <i class="fas fa-chevron-up"></i>
+  </button>
+
+  <header id="home">
+    <div class="container">
+      <div class="hero">
+        <div class="hero-copy" data-parallax="0.04">
+          <span class="eyebrow reveal">IC Physical Implementation • PNR • STA • UCIe (down to 5nm)</span>
+          <h1 class="title reveal">
+            <span class="name">Bandhan Halder</span>            
+          </h1>
+          <h2 class="typing"><span id="typing"></span></h2>
+          <p class="lead reveal">Physical design and timing sign‑off. I work across floorplanning, placement, CTS, routing and timing closure with Synopsys ICC2 and PrimeTime, delivering clean, well‑documented results.</p>
+          <div class="cta-row reveal">
+            <a class="btn" href="assets/media/bandhanhalder.pdf" download>
+            <i class="fas fa-file-pdf"></i> Download Resume</a>
+            <a class="btn primary" href="#contact">
+            <i class="fa-regular fa-paper-plane"></i> Hire Me</a>
+          </div>
+        </div>
+        <div class="hero-visual reveal" data-parallax="0.08">
+          <img class="avatar" src="assets/media/profile.jpg" alt="Portrait photo" loading="eager" decoding="async" fetchpriority="high"/>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section id="profile">
+      <div class="container">
+        <h2 class="section-title reveal center">Profile</h2>
+        <div class="panel reveal">
+          <p class="muted">Assistant VLSI Engineer with a strong academic base in VLSI design and hands‑on experience in IC Physical Implementation. Detail‑oriented problem solver with leadership experience and a focus on robust timing closure and clean sign‑off.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience">
+      <div class="container">
+        <h2 class="section-title reveal center">Experience</h2>
+        <p class="section-sub reveal center">IC Physical Implementation — Place & Route (PNR), STA, UCIe integration, and sign‑off.</p>
+
+        <div class="timeline panel reveal">
+          <div class="tl-item">
+            <div class="tl-dot"></div>
+            <div class="tl-card">
+              <div class="tl-title">Ulkasemi — Assistant Engineer, IC Physical Implementation (PNR)</div>
+              <div class="small">Promoted: Aug 17 — Present</div>
+              <ul class="clean muted">
+                <li>Timing closure owner using Synopsys PrimeTime across corners/modes; execute setup/hold fixes and ECO loops.</li>
+                <li>Floorplanning, placement, CTS, routing and post‑route optimization in Synopsys ICC2 with QoR tracking.</li>
+                <li>Worked on UCIe projects at advanced nodes down to 5nm, aligning floorplan, constraints and timing budgets.</li>
+                <li>Track deliverables and reviews in Jira; communicate risks and status crisply to stakeholders.</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="tl-item">
+            <div class="tl-dot"></div>
+            <div class="tl-card">
+              <div class="tl-title">Ulkasemi — Trainee Engineer, IC Physical Implementation (PNR)</div>
+              <div class="small">Joined: Feb 17 — Aug 16</div>
+              <ul class="clean muted">
+                <li>Supported PNR flow bring‑up in ICC2: constraints validation, congestion analysis, PDN checks.</li>
+                <li>Generated/parsed PrimeTime reports; triaged constraints and timing violations (STA).</li>
+                <li>Documented flow steps and best practices; coordinated tasks via Jira.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="grid3">
+          <article class="card tilt reveal">
+            <div class="badge">Tooling Expertise</div>
+            <ul class="clean muted">
+              <li>Synopsys ICC2 (PNR)</li>
+              <li>Synopsys PrimeTime (STA)</li>
+              <li>Jira (task and issue tracking)</li>
+              <li>UCIe integration (floorplan/constraints)</li>
+            </ul>
+          </article>
+          <article class="card tilt reveal">
+            <div class="badge">Focus Areas</div>
+            <ul class="clean muted">
+              <li>Timing closure (setup/hold, constraints debug)</li>
+              <li>Physical design optimization and ECOs</li>
+              <li>QoR tracking and reporting</li>
+            </ul>
+          </article>
+          <article class="card tilt reveal">
+            <div class="badge">Strengths</div>
+            <ul class="clean muted">
+              <li>Analytical problem solving</li>
+              <li>Clear documentation and collaboration</li>
+              <li>Ownership and continuous improvement</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills">
+      <div class="container">
+        <h2 class="section-title reveal center">Technical Skills</h2>
+        <p class="section-sub reveal center">Design tools, programming, and platforms I work with.</p>
+        <div class="grid3">
+          <article class="card tilt reveal">
+            <div class="badge">Physical Design & STA</div>
+            <ul class="clean muted">
+              <li>Synopsys ICC2 — PNR</li>
+              <li>Synopsys PrimeTime — STA</li>
+              <li>UCIe system integration (down to 5nm)</li>
+              <li>Jira — Project tracking</li>
+            </ul>
+          </article>
+          <article class="card tilt reveal">
+            <div class="badge">Software & EDA</div>
+            <ul class="clean muted">
+              <li>Cadence Virtuoso, Innovus Origin</li>
+              <li>Matlab, PSpice, AutoCAD</li>
+              <li>Code::Blocks, Proteus</li>
+            </ul>
+          </article>
+          <article class="card tilt reveal">
+            <div class="badge">Programming & OS</div>
+            <ul class="clean muted">
+              <li>C, C++</li>
+              <li>Windows, Linux (Bash)</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <div class="container">
+        <h2 class="section-title reveal center">Project Experience</h2>
+        <p class="section-sub reveal center">Hands-on designs across memory cells and digital systems.</p>
+        <div class="grid3">
+          <article class="card tilt reveal">
+            <div class="badge">10T SRAM Cell</div>
+            <ul class="clean muted">
+              <li>Built schematic and layout using paper reference in Cadence Virtuoso.</li>
+              <li>Calculated power and area; no LVS and DRC errors.</li>
+              <li>Improved area utilization while meeting design rules.</li>
+            </ul>
+          </article>
+          <article class="card tilt reveal">
+            <div class="badge">Advanced Home Automation & Security</div>
+            <ul class="clean muted">
+              <li>Designed a full chip from RTL to stream‑out using ModelSim, Genus, Innovus.</li>
+              <li>Achieved functional design closure across the flow.</li>
+            </ul>
+          </article>
+          <article class="card tilt reveal">
+            <div class="badge">Phase Frequency Detector</div>
+            <ul class="clean muted">
+              <li>Compares phase/frequency of two inputs and outputs difference.</li>
+              <li>Tools: Cadence Virtuoso & ADE L.</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="education">
+      <div class="container">
+        <h2 class="section-title reveal center">Education</h2>
+        <p class="section-sub reveal center">Academic foundation in Computer & Science Engineering.</p>
+        <div class="timeline panel reveal">
+          <div class="tl-item">
+            <div class="tl-dot"></div>
+            <div class="tl-card">
+              <div class="tl-title">Ahsanullah University of Science & Technology (AUST) — 2024</div>
+              <div class="small">Bachelor of Science in Electrical & Electronic Engineering</div>
+              <ul class="clean muted">
+                <li>Thesis: Analysis of Structural & Electrical Properties of Samarium Doped Bismuth Ferrite</li>
+                <li>CGPA: 3.686 out of 4.00</li>
+                <li>Got 2 Students Scholarship within 8 semesters</li>
+              </ul>
+            </div>
+          </div>
+          <div class="tl-item">
+            <div class="tl-dot"></div>
+            <div class="tl-card">
+              <div class="tl-title">Government Science College — 2019</div>
+              <div class="small">Higher Secondary Certificate</div>
+              <ul class="clean muted"><li>GPA: 5.00 out of 5.00</li></ul>
+            </div>
+          </div>
+          <div class="tl-item">
+            <div class="tl-dot"></div>
+            <div class="tl-card">
+              <div class="tl-title">Dhanmondi Govt. Boys' High School — 2017</div>
+              <div class="small">Secondary School Certificate</div>
+              <ul class="clean muted"><li>GPA: 5.00 out of 5.00</li></ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  <section id="contact">
+    <div class="container">
+      <h2 class="section-title reveal center">Contact</h2>
+      <p class="section-sub reveal center">Let’s collaborate on silicon ‑ proven designs.</p>
+
+      <div class="container cols">
+        <!-- Left Column -->
+        <div class="col">
+          <h3 class="title">Contact</h3>
+          <ul class="contact__list">
+            <li><i class="fas fa-phone"></i> 
+              <a href="tel:+8801823307320">+880 1823-307320</a>
+            </li>
+            <li><i class="fas fa-envelope"></i> 
+              <a href="mailto:bandhanhalder.office@gmail.com">bandhanhalder.office@gmail.com</a>
+            </li>
+            <li><i class="fas fa-map-marker-alt"></i> House: 47, South Paikpara, Dhaka, Bangladesh</li>
+          </ul>
+          <p>Follow Me</p>
+          <div class="list-inline social-links">
+            <a href="https://www.facebook.com/bdn0506/" title="Facebook" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.instagram.com/bandhanhalder/" title="Instagram" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://wa.me/8801823307320/" title="WhatsApp" target="_blank"><i class="fab fa-whatsapp"></i></a>
+            <a href="https://www.x.com/bandhanhalder/" title="X" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.linkedin.com/in/bandhan-halder-b872592a1/" title="Linkedin" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://www.github.com/bandhan37/" title="Github" target="_blank"><i class="fab fa-github"></i></a>
+          </div>
+        </div>
+
+        <!-- Right Column -->
+        <div class="col">
+          <h3 class="title">Leave a Message</h3>
+          <form class="form" id="contactForm" novalidate>
+            <div class="field">
+              <label for="name">Name<span>*</span></label>
+              <input id="name" name="name" type="text" required />
+              <span class="error-message">Name field is required</span>
+            </div>
+            <div class="field">
+              <label for="email">Email<span>*</span></label>
+              <input id="email" name="email" type="email" required />
+              <span class="error-message">Email field is required</span>
+            </div>
+            <div class="field">
+              <label for="subject">Subject<span>*</span></label>
+              <input type="text" name="subject" value="" id="subject" class="form-control" required />
+              <span class="error-message">Subject field is required</span>
+            </div>
+            <div class="field">
+              <label for="message">Message<span>*</span></label>
+              <textarea id="message" name="message" rows="5" required></textarea>
+              <span class="error-message">Message field is required</span>
+            </div>
+            <button class="btn primary" type="submit">SEND MESSAGE</button>             
+            <p class="form__status" id="formStatus" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  </main>
+
+  <footer><div class="container">© <span id="year"></span> Bandhan Halder. All rights reserved.</div></footer>
+
+  <script src="assets/js/script.js"></script>
+</body>
+</html>
