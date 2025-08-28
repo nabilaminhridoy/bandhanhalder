@@ -16,7 +16,7 @@ Click Create Repository.
 4. Upload Your Files
 Click Add files → Upload files.
 Navigate to your local project folder.
-Select index.html and your assets folder (CSS, JS, images) and upload them.
+Select index.html and your assets folder (CSS, JS, media) and upload them.
 
 5. Commit Your Changes
 In the Commit changes field, type a meaningful message like:
